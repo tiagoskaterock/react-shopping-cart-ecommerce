@@ -1,4 +1,4 @@
-import './App.css';
+import './style/App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Shop from "./pages/shop/Shop"
 import Cart from "./pages/cart/Cart"
