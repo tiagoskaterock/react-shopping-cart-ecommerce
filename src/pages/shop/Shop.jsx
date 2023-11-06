@@ -2,7 +2,7 @@ import React from 'react'
 import { PRODUCTS } from "../../data/PRODUCTS"
 import Product from "./Product"
 import "./shop.css"
-
+import { ShopContext } from "../../context/ShopContext"
 
 function Shop() {
   return (
