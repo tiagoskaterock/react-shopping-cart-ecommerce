@@ -17,5 +17,5 @@
 
 <p align="center">
   <img src="1.png" alt="Shop" />
-  <img src="1.png" alt="Cart" />
+  <img src="2.png" alt="Cart" />
 </p>
