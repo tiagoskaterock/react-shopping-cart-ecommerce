@@ -31,12 +31,16 @@ function Cart() {
       </div>
 
       {
-        totalAmount > 0 &&
+        totalAmount > 0 ?
         <div className="checkout">
           <p>Subtotal: ${totalAmount}</p>
           <button onClick={ () => navigate("/") }>Continue Shopping</button>
           <button>Checkout</button>
-        </div>        
+        </div>  :      
+        <div className="checkout">          
+          <button onClick={ () => navigate("/") }>Continue Shopping</button>
+          <button onClick={ () => navigate("/") }>Checkout</button>
+        </div>
       }
 
     </div>
